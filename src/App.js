@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Footer from './Components/Footer';
 import './App.css';
 import SearchForm from './Components/SearchForm';
 
@@ -10,6 +11,7 @@ const App = () => {
       <h1 className='title' id='startShow'>Movie Search</h1>
       
       <SearchForm />
+      <Footer />
     </div>
   )
 }
