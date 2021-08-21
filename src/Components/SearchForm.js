@@ -28,7 +28,7 @@ const SearchForm = () => {
   return (
     <div id="content" className="section">
       <form className="form-control" onSubmit={getMovies}>
-        <label className="form-lable"><h2>Movie Name</h2></label>
+        <label className="form-lable"></label>
         <input
           className="form-input"
           type="text"
